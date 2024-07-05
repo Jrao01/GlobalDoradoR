@@ -175,11 +175,11 @@ h6 {
   
   .icon-box p{
   
-    font-size: .8vw !important;
+    font-size: 1vw !important;
   }
 
-  .form-control , button, .info .address p {
-    font-size: 30px !important;
+  .form-control , button, .info div p {
+    font-size: 20px !important;
   }
   
   
@@ -913,6 +913,7 @@ section {
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  width: 100%;
 }
 
 .services .icon-box .icon {
@@ -1855,7 +1856,14 @@ section {
   
   /* Texto normal */
   p, span, a, li, label, input, textarea, select, option {
-    font-size: 1.3vw;
+    font-size: 1.3vw !important;
+  }
+
+
+  .copyright strong span{
+
+    font-size: 30px !important;
+
   }
   
   /* Texto en botones */
@@ -1952,7 +1960,7 @@ section {
 
   .h1-logo a{
 
-    font-size: 4vw;
+    font-size: 3vw !important;
 
   }
 

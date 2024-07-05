@@ -11015,8 +11015,6 @@ video.bg-video {
   .masthead .masthead-content {
     padding-top: 0;
     padding-bottom: 0;
-    padding-left: 2rem;
-    padding-right: 9rem;
   }
   .masthead .masthead-content h1, .masthead .masthead-content .h1 {
     font-size: 3.5rem;
@@ -11072,4 +11070,23 @@ video.bg-video {
     right: 2.5rem;
     width: auto;
   }
+}
+
+
+@media screen and (min-width:1200px) {
+
+  .masthead .masthead-content{
+
+    width: 70%;
+    padding-right: 5%;
+    max-width: none;
+
+  }
+
+  .divisionesFormulario input, .divisionesFormulario button, .divisionesFormulario select, .divisionesFormulario .input-file {
+
+    height: 3vw ;
+    font-size: 1.2vw;
+  }
+  
 }

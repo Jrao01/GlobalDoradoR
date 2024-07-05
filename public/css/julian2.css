@@ -49,15 +49,24 @@
     
     }
 
+
+    
+    .secciones h2 {
+
+      text-align: center !important;
+      margin: 0px;
+    }
+
+
     .secciones h2 a{
 
-        font-size: 1.3vw;
+        font-size: 1.5vw !important;
 
     }
 
     .secciones p{
 
-        font-size: 25px;
+        font-size: 1.2vw !important;
         
     }
     .mensaje p{
@@ -186,4 +195,44 @@
         transition: 0.3s;
     }
 
+
+
+    
+
 }
+
+
+
+
+
+@media screen and (min-width:1600px) {
+  
+
+  .secciones h2 a{
+
+    font-size: 1.2vw !important;
+
+  }
+
+  .secciones p {
+    width: 98%;
+    font-size: 1.1vw !important;
+}
+
+
+
+
+
+
+
+
+}
+
+#pelisp{
+
+
+  max-height: 30% !important;
+  overflow-y: scroll !important;
+}
+
+
