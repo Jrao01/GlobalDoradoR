@@ -175,10 +175,10 @@
 			margin: .7rem;
 		}
 
-		.ulMenu li a {
+		.ulMenu li a, .ulMenu li a span  {
 			color: white;
 			text-decoration: none;
-			font-size: 1.8vw;
+			font-size: 1.8vw !important;
 			font-family: cursive;
 
 		}
@@ -305,6 +305,10 @@
 			width: 70%;
 			margin-bottom: 2rem;
 		}
+
+
+
+
 	</style>
 	<link rel="stylesheet" type="text/css" href="/css/client/responsive.css">
 	<link rel="stylesheet" type="text/css" href="/css/julian2.css">
@@ -338,7 +342,7 @@
 										<h2>
 											<%= pelicula.nombre%>
 										</h2>
-										<p>
+										<p id="pelisp">
 											<%= pelicula.descripcion%>
 										</p>
 

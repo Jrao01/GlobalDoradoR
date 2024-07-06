@@ -929,6 +929,114 @@ section {
   transition: 0.3s;
 }
 
+@media screen and (min-width:1200px) {
+  
+  .StreamingIM{
+
+    height: 100%;
+    width: auto !important;
+
+  }
+
+  .icon-box a, .row  div p, .row div a, #cta div div p, #cta div div a {
+
+    font-size: 1vw !important ;
+
+
+  }
+
+  #cta div div h3 {
+
+font-size: 1.4vw !important;
+
+  }
+
+
+  #features .container{
+    width: 80vw !important;
+    max-width: none !important;
+  }
+
+  
+  .imagenFooter{
+    width:30vw;
+    height: max-content !important;
+  
+  }
+  
+  .footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div3 h4{
+    font-size: 2vw !important;
+  }
+
+  .div1{
+    width: 30vw !important;
+  }
+
+  .footer-info{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-left: 35%;
+  }
+
+
+  .footer-info p{
+    width: 100%;
+    font-size: .7vw !important;
+    text-align: justify;
+
+  }
+
+  .footer-info h3{
+    width: 100%;
+    font-size: 2vw !important;
+
+  }
+
+  .div1, .div3{
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .div3{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #row2{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+
+  
+  #footer .footer-top .social-links a {
+    font-size: 2vw !important;
+    display: inline-block;
+    background: #292929;
+    color: #fff ;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 15% !important;
+    height: auto !important;
+    transition: 0.3s;
+}
+
+
+}
+
 .services .icon-box .icon i {
   color: #151515;
   font-size: 28px;
@@ -1311,6 +1419,7 @@ section {
 
 .testimonials .testimonial-item .testimonial-img {
   width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
@@ -1318,6 +1427,61 @@ section {
   background-position: center center;
   background-attachment: fixed;
 }
+
+@media screen and (min-width:1200px) {
+  
+
+  .social-links{
+    width: 100% !important;
+  }
+
+  .testimonials .testimonial-item .testimonial-img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, 0.15);
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+
+  .testimonials .testimonial-item h3 {
+    font-size: 2vw !important;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #fff;
+  }
+  
+  .testimonials .testimonial-item h4 {
+    font-size: 1.4vw !important;
+    color: #ddd;
+    margin: 0 0 15px 0;
+  }
+
+
+  
+.testimonials .testimonial-item p {
+  font-size: 1vw !important;
+ 
+}
+
+
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+  width:  1.4vw !important;
+  height:  1.4vw !important;
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 0.5;
+}
+
+
+
+
+
+}
+
+
 
 .testimonials .testimonial-item h3 {
   font-size: 20px;
@@ -1805,11 +1969,25 @@ section {
   background: #ffcd6b;
 }
 
-#footer .copyright {
+#footer .copyright, #footer .copyright strong span {
+  margin-top: 20px;
   text-align: center;
-  padding-top: 30px;
-  font-size: 30px;
+  height: 4vw;
+  font-size: 2vw;
 }
+
+@media screen and (min-width:1200px) {
+  
+
+  #footer .copyright, #footer .copyright strong span {
+    text-align: center;
+    line-height: 4vw;
+    font-size: 30px;
+  }
+
+
+}
+
 
 #footer .credits {
   padding-top: 10px;
@@ -1854,11 +2032,11 @@ section {
     font-size: 1.1vw;
   }
   
-  /* Texto normal */
+  /* Texto normal 
   p, span, a, li, label, input, textarea, select, option {
     font-size: 1.3vw !important;
   }
-
+*/
 
   .copyright strong span{
 

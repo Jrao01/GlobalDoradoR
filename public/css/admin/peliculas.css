@@ -200,7 +200,25 @@ td:nth-child(2) {
     padding: .5rem;
     margin-right: .5rem;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1rem !important;
+    height: auto !important;
+
+}
+
+
+@media screen and (min-width:1200px) {
+    
+    .formularioFiltro input {
+        width: 50%;
+        border-radius: 10px;
+        padding: .5rem;
+        margin-right: .5rem;
+        text-align: center;
+        font-size: 1vw !important;
+        height: auto !important;
+    
+    }
+    
 
 }
 
